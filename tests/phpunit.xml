@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+        backupGlobals               = "false"
+        colors                      = "true"
+        >
+
+    <testsuites>
+        <testsuite name="Hello World Suite">
+            <directory>unit/*</directory>
+        </testsuite>
+    </testsuites>
+
+    <php>
+        <ini name="xdebug.max_nesting_level" value="200"/>
+    </php>
+
+</phpunit>

@@ -1,0 +1,13 @@
+{
+    "name": "kaustik/hello-world",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Tobias Sjöndin",
+            "email": "tobias.sjondin@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^7.3"
+    }
+}
