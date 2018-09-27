@@ -7,8 +7,8 @@ services:
             args:
                 TIMEZONE: ${TIMEZONE}
         volumes:
-            - ${SYMFONY_APP_PATH}:/var/www/symfony
-            - ./logs/symfony:/var/www/symfony/app/logs
+            - ${SYMFONY_APP_PATH}:/var/www/hello-world
+            - ./logs/symfony:/var/www/hello-world/app/logs
     nginx:
         build: docker/nginx
         ports:

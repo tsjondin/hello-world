@@ -6,7 +6,7 @@ namespace App\Controller;
 
 use Symfony\Component\HttpFoundation\Response;
 
-class HellowWorldController
+class HelloWorldController
 {
 
     public function hello()
