@@ -1,28 +1,29 @@
-
 # Running
 
 On your local computer
 
-```
+```bash
 docker-compose up
 ```
 
-# Testing
+# Development
 
-## Unit tests
+## Installing requirements
 
-On your local computer
-
-```
-(cd tests; composer install)
-tests/vendor/bin/phpunit -c tests/
+```bash
+composer install
 ```
 
-## Feature tests
+## Testing
 
-On your local computer
+### Unit tests
 
+```bash
+vendor/bin/phpunit -c tests/
 ```
-(cd tests; composer install)
-tests/vendor/bin/behat tests/features
+
+### Feature tests
+
+```bash
+vendor/bin/behat features
 ```
