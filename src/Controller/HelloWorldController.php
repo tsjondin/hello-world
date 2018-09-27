@@ -6,13 +6,11 @@ namespace App\Controller;
 
 use Symfony\Component\HttpFoundation\Response;
 
-class HelloWorldController
-{
+class HelloWorldController {
 
     public function hello()
     {
-        return new Response(
-            'Hello world!'
-        );
+        return new Response('Hello world!');
     }
+
 }

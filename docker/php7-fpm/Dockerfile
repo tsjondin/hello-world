@@ -37,3 +37,5 @@ RUN echo 'alias sf="php app/console"' >> ~/.bashrc
 RUN echo 'alias sf3="php bin/console"' >> ~/.bashrc
 
 WORKDIR /var/www/hello-world
+CMD COMPOSER=composer-production.json composer install
+ENTRYPOINT php-fpm
